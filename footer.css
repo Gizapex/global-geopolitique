@@ -1,0 +1,16 @@
+/*
+Color code : 
+red : #902222
+dark red : #6a2138
+purple : #44204f
+blue : #153C70
+light blue : #5271FF
+white : #fff
+*/
+
+footer{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 30vh;
+}

@@ -1,0 +1,22 @@
+/*
+Color code : 
+red : #902222
+dark red : #6a2138
+purple : #44204f
+blue : #153C70
+light blue : #5271FF
+white : #fff
+*/
+
+section{
+    background-color: #902222;
+    padding: 2rem 20%;
+    margin-top: -100px; 
+}
+
+section:nth-child(2){
+    background-color: #6a2138;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    padding: 10rem 20%;
+}

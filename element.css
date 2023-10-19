@@ -1,0 +1,119 @@
+/*
+Color code : 
+red : #902222
+dark red : #6a2138
+purple : #44204f
+blue : #153C70
+light blue : #5271FF
+white : #fff
+*/
+
+.element1 i.fa-discord{
+    color: #fff;
+}
+
+a{
+    cursor: none;
+}
+
+.element1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.element1:first-child{
+    margin-right: 15px;
+}
+
+.element1 a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+  
+.element1 a:link{
+    color: #153C70;
+}
+  
+.element1 a:visited{
+    color: #44204f;
+}
+  
+.element1 a:focus{
+    border-bottom: 1px solid;
+    background: #5271FF;
+}
+  
+.element1 a:hover{
+    border-bottom: 1px solid;
+    background: #5271FF;
+}
+  
+.element1 a:active{
+    background: #153C70;
+    color: #5271FF;
+}
+
+.element2{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    vertical-align: middle;
+    padding: 160px 100px;
+}
+
+.element2 a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+  
+.element2 a:link{
+    color: #153C70;
+}
+  
+.element2 a:visited{
+    color: #44204f;
+}
+  
+.element2 a:focus{
+    border-bottom: 1px solid;
+    background: #5271FF;
+}
+  
+.element2 a:hover{
+    border-bottom: 1px solid;
+    background: #5271FF;
+}
+  
+.element2 a:active{
+    background: #153C70;
+    color: #5271FF;
+}
+
+.element3{
+    padding: 160px 2em;
+    color: #000;
+    background: url("image/e_embed.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1072px){
+    .element1{
+        display: grid;
+    }
+    .element2{
+        display: grid;
+    }
+    .element3{
+        display: grid;
+    }
+}
