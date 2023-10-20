@@ -8,9 +8,52 @@ light blue : #5271FF
 white : #fff
 */
 
+a i.fa-discord{
+    color: #fff;
+}
+
+a i.fa-tiktok{
+    color: #fff;
+}
+
+a i.fa-youtube{
+    color: #fff;
+}
+
 footer{
+    display: flex;
     background-color: #000;
     color: #fff;
     width: 100%;
-    height: 30vh;
+    height: 25%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+ul{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+}
+
+@media only screen and (max-width: 1200px){
+    footer{
+        display: grid;
+    }
+    ul{
+        padding-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    h3{
+        font-size: 95%;
+    }
 }
