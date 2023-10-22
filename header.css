@@ -221,13 +221,6 @@ i.fa-arrow-right{
 .discover:hover i.fa-arrow-right{
     color: #902222;
 }
-  
-.discover:focus,button:active{
-    opacity: .85;
-    box-shadow: none;
-}
-
-
 
 
 @media only screen and (max-width: 997px){
