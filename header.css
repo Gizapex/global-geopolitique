@@ -66,6 +66,7 @@ i.fa-arrow-right{
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 .color{
@@ -129,7 +130,7 @@ i.fa-arrow-right{
     width: 100%;
     height: 100vh;
     background: url(image/h_embed.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: cover;
     background-color: #464646;
     background-position: center;
@@ -140,11 +141,12 @@ i.fa-arrow-right{
     width: 100%;
     height: 100vh;
     background: url(image/l_embed.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: cover;
     background-color: #464646;
     background-position: center;
     position: relative;
+    text-align: center;
 }
 
 .banner h2{
@@ -154,6 +156,7 @@ i.fa-arrow-right{
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
+    color: #fff;
 }
 
 .banner .discover{

@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('#country').select2();
+    $('#countrySelector').select2();
   });

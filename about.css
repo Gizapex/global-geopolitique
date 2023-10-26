@@ -8,44 +8,22 @@ light blue : #5271FF
 white : #fff
 */
 
-.banner span{
-    font-size: x-large;
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-}
-
-span{
-    color: #902222 !important;
-    display: inline;
-    float: none;
-}
-
-select{
+.l-embed .banner{
     cursor: none;
-    margin: 50px;
-    width: 150px;
-    padding: 5px 35px 5px 5px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    height: 34px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: url(image/logo_alt.png) 96% / 15% no-repeat #EEE;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: inline-block;
 }
 
-select::-ms-expand{
-    display: none;
+label{
+    cursor: none;
+    color: #902222 !important;
+}
+
+.select2{
+    cursor: none;
 }
 
 @media only screen and (max-width:610px){

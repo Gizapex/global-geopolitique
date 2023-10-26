@@ -28,6 +28,7 @@ a{
     row-gap: 5px;
     column-gap: 5px;
     padding: 100px 10px;
+    color: #fff;
 }
 
 .element1:first-child{
@@ -77,6 +78,7 @@ a{
     row-gap: 5px;
     column-gap: 5px;
     padding: 100px 10px;
+    color: #fff;
 }
 
 .element2 a{
