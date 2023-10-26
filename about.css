@@ -9,6 +9,7 @@ white : #fff
 */
 
 .l-embed .banner label{
+    cursor: none;
     font-size: x-large;
     position: absolute;
     top: 40%;
@@ -19,6 +20,7 @@ white : #fff
 }
 
 .l-embed .banner #countrySelector{
+    cursor: none;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -27,6 +29,7 @@ white : #fff
 }
 
 .l-embed .banner #countrySelector+span{
+    cursor: none;
     position: absolute;
     top: 45%;
     left: 50%;
