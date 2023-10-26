@@ -20,14 +20,14 @@ a{
     box-sizing: border-box;
     background-color: #6a2138;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: left;
     align-items: center;
     width: 100%;
     height: auto;
     row-gap: 5px;
     column-gap: 5px;
-    padding: 100px 10px;
+    padding: 100px 0;
     color: #fff;
 }
 

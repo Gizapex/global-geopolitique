@@ -8,13 +8,30 @@ light blue : #5271FF
 white : #fff
 */
 
-.l-embed .banner{
-    cursor: none;
-    font-size: large;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    display: inline-block;
+.l-embed .banner label{
+    font-size: x-large;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+}
+
+.l-embed .banner #countrySelector{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.l-embed .banner #countrySelector+span{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
 
 label{

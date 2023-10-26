@@ -35,7 +35,7 @@ h3{
     text-transform: uppercase;
 }
 
-ul{
+.footer-list{
     width: 100px;
     height: 20px;
     display: flex;
@@ -46,6 +46,7 @@ ul{
 @media only screen and (max-width: 1200px){
     footer{
         display: grid;
+        place-items: center;
     }
     ul{
         padding-left: 30%;
