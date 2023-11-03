@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,13 @@
     <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css" rel="stylesheet"/>
     <link href="node_modules/flag-icons/css/flag-icons.css" rel="stylesheet">
     <link href="node_modules/flag-icons/css/flag-icons.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/select2/dist/js/select2.min.js"></script>
+    <script src="app_downscroll.js"></script>
 
     <title>Global Géopolitique | À propos</title>
 </head>
@@ -43,7 +50,7 @@
                 <label for="countrySelector"><strong><mark>Selectionnez votre pays :</mark> </strong></label>
                 <p><em>(Ordre Alphabétique Anglais)</em></p>
                     <select id="countrySelector" name="country" class="form-control">
-                        <option value="Afghanistan" class="fi fi-af">Afghanistan</option>
+                        <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Îles Åland</option>
                         <option value="Albania">Albanie</option>
                         <option value="Algeria">Algerie</option>
@@ -290,737 +297,737 @@
                     </select>
             </div>
         </header>
-        <div class="content" style="display: none;">
-            <h2 class="Afghanistan">Afghanistan</h2>
+        <div class="content" data-country="Afghanistan">
+            Afghanistan <a href="https://fr.wikipedia.org/wiki/Afghanistan">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Åland Islands">Îles Åland</h2>
+        <div class="content" data-country="Åland Islands">
+            Îles Åland <a href="https://fr.wikipedia.org/wiki/Åland">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Albania">Albanie</h2>
+        <div class="content" data-country="Albania">
+            Albanie <a href="https://fr.wikipedia.org/wiki/Afrique_du_Sud">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Algeria">Algerie</h2>
+        <div class="content" data-country="Algeria">
+            Algerie <a href="https://fr.wikipedia.org/wiki/Algérie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="American Samoa">Samoa Américaine</h2>
+        <div class="content" data-country="American Samoa">
+            Samoa Américaine <a href="https://fr.wikipedia.org/wiki/Samoa_américaines">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Andorra">Andorre</h2>
+        <div class="content" data-country="Andorra">
+            Andorre <a href="https://fr.wikipedia.org/wiki/Andorre">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Angola">Angola</h2>
+        <div class="content" data-country="Angola">
+            Angola <a href="https://fr.wikipedia.org/wiki/Angola">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Anguilla">Anguilla</h2>
+        <div class="content" data-country="Anguilla">
+            Anguilla <a href="https://fr.wikipedia.org/wiki/Anguilla">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Antarctica">Antarctique</h2>
+        <div class="content" data-country="Antarctica">
+            Antarctique <a href="https://fr.wikipedia.org/wiki/Antarctique">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Antigua and Barbuda">Antigua et Barbuda</h2>
+        <div class="content" data-country="Antigua and Barbuda">
+            Antigua et Barbuda <a href="https://fr.wikipedia.org/wiki/Antigua-et-Barbuda">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Argentina">Argentine</h2>
+        <div class="content" data-country="Argentina">
+            Argentine <a href="https://fr.wikipedia.org/wiki/Argentine">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Armenia">Armenie</h2>
+        <div class="content" data-country="Armenia">
+            Armenie <a href="https://fr.wikipedia.org/wiki/Arménie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Aruba">Aruba</h2>
+        <div class="content" data-country="Aruba">
+            Aruba">Aruba <a href="https://fr.wikipedia.org/wiki/Aruba">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Australia">Australie</h2>
+        <div class="content" data-country="Australia">
+            >Australie <a href="https://fr.wikipedia.org/wiki/Australie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Austria">Austriche</h2>
+        <div class="content" data-country="Austria">
+            Austriche <a href="https://fr.wikipedia.org/wiki/Autriche">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Azerbaijan">Azerbaijan</h2>
+        <div class="content" data-country="Azerbaijan">
+            Azerbaijan <a href="https://fr.wikipedia.org/wiki/Azerbaïdjan">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bahamas">Bahamas</h2>
+        <div class="content" data-country="Bahamas">
+            Bahamas <a href="https://fr.wikipedia.org/wiki/Bahamas">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bahrain">Bahrain</h2>
+        <div class="content" data-country="Bahrain">
+            Bahrain <a href="https://fr.wikipedia.org/wiki/Bahreïn">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bangladesh">Bangladesh</h2>
+        <div class="content" data-country="Bangladesh">
+            Bangladesh <a href="https://fr.wikipedia.org/wiki/Bangladesh">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Barbados">Barbados</h2>
+        <div class="content" data-country="Barbados">
+            Barbados <a href="https://fr.wikipedia.org/wiki/Barbade">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Belarus">Biélorussie</h2>
+        <div class="content" data-country="Belarus">
+            Biélorussie <a href="https://fr.wikipedia.org/wiki/Biélorussie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Belgium">Belgique</h2>
+        <div class="content" data-country="Belgium">
+            Belgique <a href="https://fr.wikipedia.org/wiki/Belgique">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Belize">Belize</h2>
+        <div class="content" data-country="Belize">
+            Belize <a href="https://fr.wikipedia.org/wiki/Belize">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Benin">Bénin</h2>
+        <div class="content" data-country="Benin">
+            Bénin <a href="https://fr.wikipedia.org/wiki/Bénin">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bermuda">Bermudes</h2>
+        <div class="content" data-country="Bermuda">
+            Bermudes <a href="https://fr.wikipedia.org/wiki/Bermudes">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bhutan">Bhoutan</h2>
+        <div class="content" data-country="Bhutan">
+            Bhoutan <a href="https://fr.wikipedia.org/wiki/Bhoutan">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bolivia">Bolivie</h2>
+        <div class="content" data-country="Bolivia">
+            Bolivie <a href="https://fr.wikipedia.org/wiki/Bolivie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bosnia and Herzegovina">Bosnie Herzegovine</h2>
+        <div class="content" data-country="Bosnia and Herzegovina">
+            Bosnie Herzegovine <a href="https://fr.wikipedia.org/wiki/Bosnie-Herzégovine">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Botswana">Botswana</h2>
+        <div class="content" data-country="Botswana">
+            Botswana <a href="https://fr.wikipedia.org/wiki/Botswana">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bouvet Island">Île Bouvet</h2>
+        <div class="content" data-country="Bouvet Island">
+            Île Bouvet <a href="https://fr.wikipedia.org/wiki/Île_Bouvet">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Brazil">Brézil</h2>
+        <div class="content" data-country="Brazil">
+            Brézil <a href="https://fr.wikipedia.org/wiki/Brésil">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="British Indian Ocean Territory">Ter. brit. océan Indien</h2>
+        <div class="content" data-country="British Indian Ocean Territory">
+            Ter. brit. océan Indien <a href="https://fr.wikipedia.org/wiki/Territoire_britannique_de_l%27océan_Indien">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Brunei Darussalam">Brunei</h2>
+        <div class="content" data-country="Brunei Darussalam">
+            Brunei <a href="https://fr.wikipedia.org/wiki/Brunei">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Bulgaria">Bulgarie</h2>
+        <div class="content" data-country="Bulgaria">
+            Bulgarie <a href="https://fr.wikipedia.org/wiki/Bulgarie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Burkina Faso">Burkina Faso</h2>
+        <div class="content" data-country="Burkina Faso">
+            Burkina Faso <a href="https://fr.wikipedia.org/wiki/Burkina_Faso">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Burundi">Burundi</h2>
+        <div class="content" data-country="Burundi">
+            Burundi <a href="https://fr.wikipedia.org/wiki/Burundi">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cambodia">Cambodge</h2>
+        <div class="content" data-country="Cambodia">
+            Cambodge <a href="https://fr.wikipedia.org/wiki/Cambodge">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cameroon">Cameroun</h2>
+        <div class="content" data-country="Cameroon">
+            Cameroun <a href="https://fr.wikipedia.org/wiki/Cameroun">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Canada">Canada</h2>
+        <div class="content" data-country="Canada">
+            Canada <a href="https://fr.wikipedia.org/wiki/Canada">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cape Verde">Cape Vert</h2>
+        <div class="content" data-country="Cape Verde">
+            Cape Vert <a href="https://fr.wikipedia.org/wiki/Cap-Vert">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cayman Islands">Îles Cayman</h2>
+        <div class="content" data-country="Cayman Islands">
+            Îles Cayman <a href="https://fr.wikipedia.org/wiki/Îles_Caïmans">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Central African Republic">Centrafrique</h2>
+        <div class="content" data-country="Central African Republic">
+            Centrafrique <a href="https://fr.wikipedia.org/wiki/République_centrafricaine">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Chad">Chad</h2>
+        <div class="content" data-country="Chad">
+            Tchad <a href="https://fr.wikipedia.org/wiki/Tchad">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Chile">Chili</h2>
+        <div class="content" data-country="Chile">
+            Chili <a href="https://fr.wikipedia.org/wiki/Chili">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="China">Chine</h2>
+        <div class="content" data-country="China">
+            Chine <a href="https://fr.wikipedia.org/wiki/Chine">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Christmas Island">Île Christmas</h2>
+        <div class="content" data-country="Christmas Island">
+            Île Christmas <a href="https://fr.wikipedia.org/wiki/Île_Christmas_(Australie)">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cocos (Keeling) Islands">Îles Cocos</h2>
+        <div class="content" data-country="Cocos (Keeling) Islands">
+            Îles Cocos <a href="https://fr.wikipedia.org/wiki/Îles_Cocos">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Colombia">Colombie</h2>
+        <div class="content" data-country="Colombia">
+            Colombie <a href="https://fr.wikipedia.org/wiki/Colombie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Comoros">Comores</h2>
+        <div class="content" data-country="Comoros">
+            Comores <a href="https://fr.wikipedia.org/wiki/Comores_(pays)">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Congo">Rep. Congo</h2>
+        <div class="content" data-country="Congo">
+            Rep. Congo <a href="https://fr.wikipedia.org/wiki/République_du_Congo">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Congo, The Democratic Republic of The">Rep. Démocratique du Congo</h2>
+        <div class="content" data-country="Congo, The Democratic Republic of The">
+            Rep. Démocratique du Congo <a href="https://fr.wikipedia.org/wiki/République_démocratique_du_Congo">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cook Islands">Îles Cook</h2>
+        <div class="content" data-country="Cook Islands">
+            Îles Cook <a href="https://fr.wikipedia.org/wiki/Îles_Cook">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Costa Rica">Costa Rica</h2>
+        <div class="content" data-country="Costa Rica">
+            Costa Rica <a href="https://fr.wikipedia.org/wiki/Costa_Rica">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cote D'ivoire">Cote D'ivoire</h2>
+        <div class="content" data-country="Cote D'ivoire">
+            Cote D'ivoire <a href="https://fr.wikipedia.org/wiki/Côte_d%27Ivoire">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Croatia">Croatie</h2>
+        <div class="content" data-country="Croatia">
+            Croatie <a href="https://fr.wikipedia.org/wiki/Croatie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cuba">Cuba</h2>
+        <div class="content" data-country="Cuba">
+            Cuba <a href="https://fr.wikipedia.org/wiki/Cuba">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Cyprus">Chypre</h2>
+        <div class="content" data-country="Cyprus">
+            Chypre <a href="https://fr.wikipedia.org/wiki/Chypre_(pays)">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Czech Republic">Rep. Tchèque</h2>
+        <div class="content" data-country="Czech Republic">
+            Rep. Tchèque <a href="https://fr.wikipedia.org/wiki/Tchéquie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Denmark">Danmark</h2>
+        <div class="content" data-country="Denmark">
+            Danmark <a href="https://fr.wikipedia.org/wiki/Danemark">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Djibouti">Djibouti</h2>
+        <div class="content" data-country="Djibouti">
+            Djibouti <a href="https://fr.wikipedia.org/wiki/Djibouti">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Dominica">Dominique</h2>
+        <div class="content" data-country="Dominica">
+            Dominique <a href="https://fr.wikipedia.org/wiki/Dominique_(pays)">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Dominican Republic">Rép. Dominicaine</h2>
+        <div class="content" data-country="Dominican Republic">
+            Rép. Dominicaine <a href="https://fr.wikipedia.org/wiki/République_dominicaine">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Ecuador">Equateur</h2>
+        <div class="content" data-country="Ecuador">
+            Equateur <a href="https://fr.wikipedia.org/wiki/Équateur_(pays)">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Egypt">Égypte</h2>
+        <div class="content" data-country="Egypt">
+            Égypte <a href="https://fr.wikipedia.org/wiki/Égypte">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="El Salvador">El Salvador</h2>
+        <div class="content" data-country="El Salvador">
+            Salvador <a href="https://fr.wikipedia.org/wiki/Salvador">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Equatorial Guinea">Guinée Équatoriale</h2>
+        <div class="content" data-country="Equatorial Guinea">
+            Guinée Équatoriale <a href="https://fr.wikipedia.org/wiki/Guinée_équatoriale">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Eritrea">Érythrée</h2>
+        <div class="content" data-country="Eritrea">
+            Érythrée <a href="https://fr.wikipedia.org/wiki/Érythrée">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Estonia">Estonie</h2>
+        <div class="content" data-country="Estonia">
+            Estonie <a href="https://fr.wikipedia.org/wiki/Estonie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Ethiopia">Ethiopie</h2>
+        <div class="content" data-country="Ethiopia">
+            Ethiopie <a href="https://fr.wikipedia.org/wiki/Éthiopie">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Falkland Islands (Malvinas)">Îles Malouines</h2>
+        <div class="content" data-country="Falkland Islands (Malvinas)">
+            Îles Malouines <a href="https://fr.wikipedia.org/wiki/Îles_Malouines">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Faroe Islands">Îles Féroé</h2>
+        <div class="content" data-country="Faroe Islands">
+            Îles Féroé <a href="https://fr.wikipedia.org/wiki/Îles_Féroé">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Fiji">Fidji</h2>
+        <div class="content" data-country="Fiji">
+            Fidji <a href="https://fr.wikipedia.org/wiki/Fidji">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Finland">Finlande</h2>
+        <div class="content" data-country="Finland">
+            Finlande <a href="https://fr.wikipedia.org/wiki/Finlande">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="France">France</h2>
+        <div class="content" data-country="France">
+            France <a href="https://fr.wikipedia.org/wiki/France">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="French Guiana">Guyane Française</h2>
+        <div class="content" data-country="French Guiana">
+            Guyane Française <a href="https://fr.wikipedia.org/wiki/Guyane">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="French Polynesia">Polynésie Française</h2>
+        <div class="content" data-country="French Polynesia">
+            Polynésie Française <a href="https://fr.wikipedia.org/wiki/Polynésie_française">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="French Southern Territories">Ter. australes et antarctiques Fr.</h2>
+        <div class="content" data-country="French Southern Territories">
+            Ter. australes et antarctiques Fr. <a href="https://fr.wikipedia.org/wiki/Terres_australes_et_antarctiques_françaises">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Gabon">Gabon</h2>
+        <div class="content" data-country="Gabon">
+            Gabon <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Gambia">Gambie</h2>
+        <div class="content" data-country="Gambia">
+            Gambie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Georgia">Georgie</h2>
+        <div class="content" data-country="Georgia">
+            Georgie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Germany">Allemagne</h2>
+        <div class="content" data-country="Germany">
+            Allemagne <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Ghana">Ghana</h2>
+        <div class="content" data-country="Ghana">
+            Ghana <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Gibraltar">Gibraltar</h2>
+        <div class="content" data-country="Gibraltar">
+            Gibraltar <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Greece">Grèce</h2>
+        <div class="content" data-country="Greece">
+            Grèce <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Greenland">Groeland</h2>
+        <div class="content" data-country="Greenland">
+            Groeland <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Grenada">Grenade</h2>
+        <div class="content" data-country="Grenada">
+            Grenade <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guadeloupe">Guadeloupe</h2>
+        <div class="content" data-country="Guadeloupe">
+            Guadeloupe <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guam">Guam</h2>
+        <div class="content" data-country="Guam">
+            Guam <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guatemala">Guatemala</h2>
+        <div class="content" data-country="Guatemala">
+            Guatemala <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guernsey">Guernsey</h2>
+        <div class="content" data-country="Guernsey">
+            Guernsey <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guinea">Guinée</h2>
+        <div class="content" data-country="Guinea">
+            Guinée <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guinea-bissau">Guinée-bissau</h2>
+        <div class="content" data-country="Guinea-bissau">
+            Guinée-bissau <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Guyana">Guyana</h2>
+        <div class="content" data-country="Guyana">
+            Guyana <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Haiti">Haiti</h2>
+        <div class="content" data-country="Haiti">
+            Haiti <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Heard Island and Mcdonald Islands">Îles Heard et McDonald</h2>
+        <div class="content" data-country="Heard Island and Mcdonald Islands">
+            Îles Heard et McDonald <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Holy See (Vatican City State)">Vatican</h2>
+        <div class="content" data-country="Holy See (Vatican City State)">
+            Vatican <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Honduras">Honduras</h2>
+        <div class="content" data-country="Honduras">
+            Honduras <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Hong Kong">Hong Kong</h2>
+        <div class="content" data-country="Hong Kong">
+            Hong Kong <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Hungary">Hongrie</h2>
+        <div class="content" data-country="Hungary">
+            Hongrie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Iceland">Islande</h2>
+        <div class="content" data-country="Iceland">
+            Islande <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="India">Inde</h2>
+        <div class="content" data-country="India">
+            Inde <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Indonesia">Indonesie</h2>
+        <div class="content" data-country="Indonesia">
+            Indonesie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Iran, Islamic Republic of">Rep. Islam. d'Iran</h2>
+        <div class="content" data-country="Iran, Islamic Republic of">
+            Rep. Islam. d'Iran <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Iraq">Irak</h2>
+        <div class="content" data-country="Iraq">
+            Irak <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Ireland">Irelande</h2>
+        <div class="content" data-country="Ireland">
+            Irelande <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Isle of Man">Île de Man</h2>
+        <div class="content" data-country="Isle of Man">
+            Île de Man <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Israel">Israël</h2>
+        <div class="content" data-country="Israel">
+            Israël <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Italy">Italie</h2>
+        <div class="content" data-country="Italy">
+            Italie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Jamaica">Jamaique</h2>
+        <div class="content" data-country="Jamaica">
+            Jamaique <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Japan">Japon</h2>
+        <div class="content" data-country="Japan">
+            Japon <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Jersey">Jersey</h2>
+        <div class="content" data-country="Jersey">
+            Jersey <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Jordan">Jordanie</h2>
+        <div class="content" data-country="Jordan">
+            Jordanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Kazakhstan">Kazakhstan</h2>
+        <div class="content" data-country="Kazakhstan">
+            Kazakhstan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Kenya">Kenya</h2>
+        <div class="content" data-country="Kenya">
+            Kenya <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Kiribati">Kiribati</h2>
+        <div class="content" data-country="Kiribati">
+            Kiribati <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Korea, Democratic People's Republic of">Corée du Nord</h2>
+        <div class="content" data-country="Korea, Democratic People's Republic of">
+            Corée du Nord <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Korea, Republic of">Corée du Sud</h2>
+        <div class="content" data-country="Korea, Republic of">
+            Corée du Sud <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Kuwait">Koweït</h2>
+        <div class="content" data-country="Kuwait">
+            Koweït <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Kyrgyzstan">Kirghizistan</h2>
+        <div class="content" data-country="Kyrgyzstan">
+            Kirghizistan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Lao People's Democratic Republic">Rep. pop. du Laos</h2>
+        <div class="content" data-country="Lao People's Democratic Republic">
+            Rep. pop. du Laos <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Latvia">Lettonie</h2>
+        <div class="content" data-country="Latvia">
+            Lettonie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Lebanon">Liban</h2>
+        <div class="content" data-country="Lebanon">
+            Liban <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Lesotho">Lesotho</h2>
+        <div class="content" data-country="Lesotho">
+            Lesotho <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Liberia">Liberia</h2>
+        <div class="content" data-country="Liberia">
+            Liberia <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Libyan Arab Jamahiriya">Libye</h2>
+        <div class="content" data-country="Libyan Arab Jamahiriya">
+            Libye <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Liechtenstein">Liechtenstein</h2>
+        <div class="content" data-country="Liechtenstein">
+            Liechtenstein <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Lithuania">Lithuanie</h2>
+        <div class="content" data-country="Lithuania">
+            Lithuanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Luxembourg">Luxembourg</h2>
+        <div class="content" data-country="Luxembourg">
+            Luxembourg <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Macao">Macao</h2>
+        <div class="content" data-country="Macao">
+            Macao <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Macedonia, The Former Yugoslav Republic of">Macedoine du nord</h2>
+        <div class="content" data-country="Macedonia, The Former Yugoslav Republic of">
+            Macedoine du nord <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Madagascar">Madagascar</h2>
+        <div class="content" data-country="Madagascar">
+            Madagascar <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Malawi">Malawi</h2>
+        <div class="content" data-country="Malawi">
+            Malawi <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Malaysia">Malaysie</h2>
+        <div class="content" data-country="Malaysia">
+            Malaysie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Maldives">Maldives</h2>
+        <div class="content" data-country="Maldives">
+            Maldives <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mali">Mali</h2>
+        <div class="content" data-country="Mali">
+            Mali <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Malta">Malte</h2>
+        <div class="content" data-country="Malta">
+            Malte <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Marshall Islands">Îles Marshall</h2>
+        <div class="content" data-country="Marshall Islands">
+            Îles Marshall <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Martinique">Martinique</h2>
+        <div class="content" data-country="Martinique">
+            Martinique <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mauritania">Mauritanie</h2>
+        <div class="content" data-country="Mauritania">
+            Mauritanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mauritius">Maurice</h2>
+        <div class="content" data-country="Mauritius">
+            Île Maurice <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mayotte">Mayotte</h2>
+        <div class="content" data-country="Mayotte">
+            Mayotte <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mexico">Mexique</h2>
+        <div class="content" data-country="Mexico">
+            Mexique <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Micronesia, Federated States of">Micronesie</h2>
+        <div class="content" data-country="Micronesia, Federated States of">
+            Micronesie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Moldova, Republic of">Rep. de Moldavie</h2>
+        <div class="content" data-country="Moldova, Republic of">
+            Rep. de Moldavie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Monaco">Monaco</h2>
+        <div class="content" data-country="Monaco">
+            Monaco">Monaco <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mongolia">Mongolie</h2>
+        <div class="content" data-country="Mongolia">
+            Mongolie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Montenegro">Monténégro</h2>
+        <div class="content" data-country="Montenegro">
+            Monténégro <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Montserrat">Montserrat</h2>
+        <div class="content" data-country="Montserrat">
+            Montserrat <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Morocco">Maroc</h2>
+        <div class="content" data-country="Morocco">
+            Maroc <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Mozambique">Mozambique</h2>
+        <div class="content" data-country="Mozambique">
+            Mozambique <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Myanmar">Birmanie</h2>
+        <div class="content" data-country="Myanmar">
+            Birmanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Namibia">Namibie</h2>
+        <div class="content" data-country="Namibia">
+            Namibie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Nauru">Nauru</h2>
+        <div class="content" data-country="Nauru">
+            Nauru <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Nepal">Népal</h2>
+        <div class="content" data-country="Nepal">
+            Népal <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Netherlands">Pays Bas</h2>
+        <div class="content" data-country="Netherlands">
+            Pays Bas <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Netherlands Antilles">Antilles néerlandaises</h2>
+        <div class="content" data-country="Netherlands Antilles">
+            Antilles néerlandaises <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="New Caledonia">Nouvelle Calédonie</h2>
+        <div class="content" data-country="New Caledonia">
+            Nouvelle Calédonie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="New Zealand">Nouvelle Zélande</h2>
+        <div class="content" data-country="New Zealand">
+            Nouvelle Zélande <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Nicaragua">Nicaragua</h2>
+        <div class="content" data-country="Nicaragua">
+            Nicaragua <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Niger">Niger</h2>
+        <div class="content" data-country="Niger">
+            Niger <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Nigeria">Nigeria</h2>
+        <div class="content" data-country="Nigeria">
+            Nigeria <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Niue">Niue</h2>
+        <div class="content" data-country="Niue">
+            Niue <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Norfolk Island">Île Norfolk</h2>
+        <div class="content" data-country="Norfolk Island">
+            Norfolk Island">Île Norfolk <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Northern Mariana Islands">Îles Mariannes du nord</h2>
+        <div class="content" data-country="Northern Mariana Islands">
+            Îles Mariannes du nord <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Norway">Norvège</h2>
+        <div class="content" data-country="Norway">
+            Norvège <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Oman">Oman</h2>
+        <div class="content" data-country="Oman">
+            Oman <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Pakistan">Pakistan</h2>
+        <div class="content" data-country="Pakistan">
+            Pakistan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Palau">Palaos</h2>
+        <div class="content" data-country="Palau">
+            Palaos <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Palestinian Territory, Occupied">Ter. Palestinien</h2>
+        <div class="content" data-country="Palestinian Territory, Occupied">
+            Ter. Palestinien <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Panama">Panama</h2>
+        <div class="content" data-country="Panama">
+            Panama <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Papua New Guinea">Papouasie Nvl. Guinée</h2>
+        <div class="content" data-country="Papua New Guinea">
+            Papouasie Nvl. Guinée <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Paraguay">Paraguay</h2>
+        <div class="content" data-country="Paraguay">
+            Paraguay <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Peru">Pérou</h2>
+        <div class="content" data-country="Peru">
+            Pérou <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Philippines">Philippines</h2>
+        <div class="content" data-country="Philippines">
+            Philippines <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Pitcairn">Îles Pitcairn</h2>
+        <div class="content" data-country="Pitcairn">
+            Îles Pitcairn <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Poland">Pologne</h2>
+        <div class="content" data-country="Poland">
+            Pologne <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Portugal">Portugal</h2>
+        <div class="content" data-country="Portugal">
+            Portugal <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Puerto Rico">Porto Rico</h2>
+        <div class="content" data-country="Puerto Rico">
+            Porto Rico <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Qatar">Qatar</h2>
+        <div class="content" data-country="Qatar">
+            Qatar <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Reunion">La Réunion</h2>
+        <div class="content" data-country="Reunion">
+            La Réunion <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Romania">Roumanie</h2>
+        <div class="content" data-country="Romania">
+            Roumanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Russian Federation">Féd. de Russie</h2>
+        <div class="content" data-country="Russian Federation">
+            Féd. de Russie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Rwanda">Rwanda</h2>
+        <div class="content" data-country="Rwanda">
+            Rwanda <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saint Helena">Sainte Hélène</h2>
+        <div class="content" data-country="Saint Helena">
+            Sainte Hélène <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saint Kitts and Nevis">Saint Christophe et Niévès</h2>
+        <div class="content" data-country="Saint Kitts and Nevis">
+            Saint Christophe et Niévès <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saint Lucia">Sainte Lucie</h2>
+        <div class="content" data-country="Saint Lucia">
+            Sainte Lucie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saint Pierre and Miquelon">Saint Pierre et Miquelon</h2>
+        <div class="content" data-country="Saint Pierre and Miquelon">
+            Saint Pierre et Miquelon <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saint Vincent and The Grenadines">Saint Vincent et les Grenadines</h2>
+        <div class="content" data-country="Saint Vincent and The Grenadines">
+            Saint Vincent et les Grenadines <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Samoa">Samoa</h2>
+        <div class="content" data-country="Samoa">
+            Samoa <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="San Marino">Saint Marin</h2>
+        <div class="content" data-country="San Marino">
+            Saint Marin <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Sao Tome and Principe">Sao Tome et Principe</h2>
+        <div class="content" data-country="Sao Tome and Principe">
+            Sao Tome et Principe <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Saudi Arabia">Arabie Saoudite</h2>
+        <div class="content" data-country="Saudi Arabia">
+            Arabie Saoudite <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Senegal">Sénégale</h2>
+        <div class="content" data-country="Senegal">
+            Sénégale <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Serbia">Serbie</h2>
+        <div class="content" data-country="Serbia">
+            Serbie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Seychelles">Seychelles</h2>
+        <div class="content" data-country="Seychelles">
+            Seychelles <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Sierra Leone">Sierra Leone</h2>
+        <div class="content" data-country="Sierra Leone">
+            Sierra Leone <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Singapore">Singapour</h2>
+        <div class="content" data-country="Singapore">
+            Singapour <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Slovakia">Slovaquie</h2>
+        <div class="content" data-country="Slovakia">
+            Slovaquie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Slovenia">Slovénie</h2>
+        <div class="content" data-country="Slovenia">
+            Slovénie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Solomon Islands">Îles Solomon</h2>
+        <div class="content" data-country="Solomon Islands">
+            Îles Solomon <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Somalia">Somalie</h2>
+        <div class="content" data-country="Somalia">
+            Somalie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="South Africa">Afrique du Sud</h2>
+        <div class="content" data-country="South Africa">
+            Afrique du Sud <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="South Georgia and The South Sandwich Islands">Géorgie Sud et îles Sandwich Sud</h2>
+        <div class="content" data-country="South Georgia and The South Sandwich Islands">
+            Géorgie Sud et îles Sandwich Sud <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Spain">Espagne</h2>
+        <div class="content" data-country="Spain">
+            Espagne <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Sri Lanka">Sri Lanka</h2>
+        <div class="content" data-country="Sri Lanka">
+            Sri Lanka <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Sudan">Soudan</h2>
+        <div class="content" data-country="Sudan">
+            Soudan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Suriname">Suriname</h2>
+        <div class="content" data-country="Suriname">
+            Suriname <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Svalbard and Jan Mayen">Svalbard</h2>
+        <div class="content" data-country="Svalbard and Jan Mayen">
+            Svalbard <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Swaziland">Eswatini</h2>
+        <div class="content" data-country="Swaziland">
+            Eswatini <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Sweden">Suède</h2>
+        <div class="content" data-country="Sweden">
+            Suède <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Switzerland">Suisse</h2>
+        <div class="content" data-country="Switzerland">
+            Suisse <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Syrian Arab Republic">Rep. Arabe de Syrie</h2>
+        <div class="content" data-country="Syrian Arab Republic">
+            Rep. Arabe de Syrie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Taiwan">Taïwan</h2>
+        <div class="content" data-country="Taiwan">
+            Taïwan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tajikistan">Tajikistan</h2>
+        <div class="content" data-country="Tajikistan">
+            Tajikistan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tanzania, United Republic of">Rep. de Tanzanie</h2>
+        <div class="content" data-country="Tanzania, United Republic of">
+            Rep. de Tanzanie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Thailand">Thaïland</h2>
+        <div class="content" data-country="Thailand">
+            Thaïland <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Timor-leste">Timor orientale</h2>
+        <div class="content" data-country="Timor-leste">
+            Timor orientale <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Togo">Togo</h2>
+        <div class="content" data-country="Togo">
+            Togo <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tokelau">Tokelau</h2>
+        <div class="content" data-country="Tokelau">
+            Tokelau <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tonga">Tonga</h2>
+        <div class="content" data-country="Tonga">
+            Tonga <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Trinidad and Tobago">Trinité et Tobago</h2>
+        <div class="content" data-country="Trinidad and Tobago">
+            Trinité et Tobago <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tunisia">Tunisie</h2>
+        <div class="content" data-country="Tunisia">
+            Tunisie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Turkey">Turquie</h2>
+        <div class="content" data-country="Turkey">
+            Turquie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Turkmenistan">Turkménistan</h2>
+        <div class="content" data-country="Turkmenistan">
+            Turkménistan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Turks and Caicos Islands">Îles Turks et Caïques</h2>
+        <div class="content" data-country="Turks and Caicos Islands">
+            Îles Turks et Caïques <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Tuvalu">Tuvalu</h2>
+        <div class="content" data-country="Tuvalu">
+            Tuvalu <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Uganda">Ouganda</h2>
+        <div class="content" data-country="Uganda">
+            Ouganda <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Ukraine">Ukraine</h2>
+        <div class="content" data-country="Ukraine">
+            Ukraine <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="United Arab Emirates">Émirats Arabes Unis</h2>
+        <div class="content" data-country="United Arab Emirates">
+            Émirats Arabes Unis <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="United Kingdom">Royaume Uni</h2>
+        <div class="content" data-country="United Kingdom">
+            Royaume Uni <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="United States">États Unis</h2>
+        <div class="content" data-country="United States">
+            États Unis <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="United States Minor Outlying Islands">Îles mineures des États-Unis</h2>
+        <div class="content" data-country="United States Minor Outlying Islands">
+            Îles mineures des États-Unis <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Uruguay">Uruguay</h2>
+        <div class="content" data-country="Uruguay">
+            Uruguay <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Uzbekistan">Ouzbékistan</h2>
+        <div class="content" data-country="Uzbekistan">
+            Ouzbékistan <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Vanuatu">Vanuatu</h2>
+        <div class="content" data-country="Vanuatu">
+            Vanuatu <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Venezuela">Venezuela</h2>
+        <div class="content" data-country="Venezuela">
+            Venezuela <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Viet Nam">Vietnam</h2>
+        <div class="content" data-country="Viet Nam">
+            Vietnam <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Virgin Islands, British">Îles Vierges britanniques</h2>
+        <div class="content" data-country="Virgin Islands, British">
+            Îles Vierges britanniques <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Virgin Islands, U.S.">Îles Vierges des États-Unis</h2>
+        <div class="content" data-country="Virgin Islands, U.S.">
+            Îles Vierges des États-Unis <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Wallis and Futuna">Wallis et Futuna</h2>
+        <div class="content" data-country="Wallis and Futuna">
+            Wallis et Futuna <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Western Sahara">Sahara occidental</h2>
+        <div class="content" data-country="Western Sahara">
+            Sahara occidental <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Yemen">Yémen</h2>
+        <div class="content" data-country="Yemen">
+            Yémen <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Zambia">Zambie</h2>
+        <div class="content" data-country="Zambia">
+            Zambie <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
-        <div class="content" style="display: none;">
-            <h2 class="Zimbabwe">Zimbabwe</h2>
+        <div class="content" data-country="Zimbabwe">
+            Zimbabwe <a href="">Page Wikipédia <i class="fa-brands fa-wikipedia-w"></i></a>
         </div>
 
         <footer>
@@ -1036,15 +1043,9 @@
     <a href="#accueil" class="gotopbtn"><i class="fa-solid fa-chevron-up"></i></a>
     <div class="cursor"></div>
 
-    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/select2/dist/js/select2.min.js"></script>
     <script src="app_menu.js"></script>
     <script src="app_cursor.js"></script>
-    <script src="app_downscroll.js"></script>
-    
+
 </body>
 
 </html>
