@@ -58,31 +58,31 @@ label{
     cursor: none;
 }
 
-a{
+a.wiki{
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
 }
   
-a:link{
+a.wiki:link{
     color: #153C70;
 }
   
-a:visited{
+a.wiki:visited{
     color: #44204f;
 }
   
-a:focus{
+a.wiki:focus{
     border-bottom: 1px solid;
     background: #5271FF;
 }
   
-a:hover{
+a.wiki:hover{
     border-bottom: 1px solid;
     background: #5271FF;
 }
   
-a:active{
+a.wiki:active{
     background: #153C70;
     color: #5271FF;
 }
