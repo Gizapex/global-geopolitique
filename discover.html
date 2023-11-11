@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="node_modules/flag-icons/css/flag-icons.css" rel="stylesheet">
+    <link href="node_modules/flag-icons/css/flag-icons.min.css" rel="stylesheet">
+    <link href="node_modules/select2/dist/css/select2.min.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
     <link href="element.css" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href="header.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="image/logo_alt.png">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css" rel="stylesheet"/>   
+
+    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/select2/dist/js/select2.min.js"></script>
+    <script src="app_downscroll.js"></script>
+    <script src="app_discord.js"></script>
 
     <title>Global Géopolitique | Découvrir</title>
 </head>
@@ -34,7 +48,40 @@
             </div>
         </nav>
 
-    <div class="banner"></div>
+        <div class="auth-wrap-background">
+            <div class="auth-center">
+                <div class="auth-blur auth-size">
+                    <div class="auth-wrap-background"></div>
+                </div>
+            </div>
+            <div class="auth-center">
+                <div class="auth_inner auth-size">
+                    <div class="auth_form auth_inner_section">
+                        <div class="form">
+                            <h1 class="form_title" id="wb-text"><mark>Entrez votre annonce ici !</mark></h1>
+                            <div id="form">
+                                <label class="form_label"><span class="form_label_text">Serveur :</span></label>
+                                    <select class="form_input" name="webhooks" id="url">
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                        <option value="https://discord.com/api/webhooks/1172601615266611252/C9R0lWEzQ8OFcrz0xieg7s4ZsQwrjh_LLq9y_g_hRDk0h-bubZi2SUHTWV3Nr7UrfO19"> Global Géopolitique</option>
+                                    </select>
+                                
+                                <label class="form_label"><span class="form_label_text">Message :</span></label>
+                                    <textarea class="form_input" style="resize:none;" name="message" id="content" cols="30" rows="5" maxlength="2000" placeholder="  Ceci est un message."></textarea>
+                                
+                                <input class="button" type="submit" id="Submit" value="Send to Discord">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <footer>
@@ -47,14 +94,9 @@
         </ul>
     </footer>
 
-    <a href="#acceuil" class="gotopbtn"><i class="fa-solid fa-chevron-up"></i></a>
+    <a href="#accueil" class="gotopbtn"><i class="fa-solid fa-chevron-up"></i></a>
     <div class="cursor"></div>
 
-    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/select2/dist/js/select2.min.js"></script>
     <script src="app_menu.js"></script>
     <script src="app_cursor.js"></script>
     
