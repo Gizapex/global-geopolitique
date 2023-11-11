@@ -170,13 +170,6 @@ select option{
     left: 0;
 }
 
-.auth-blur{
-    cursor: none;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-    overflow: hidden;
-}
-
 .auth-size{
     cursor: none;
     max-height: 440px;
@@ -185,26 +178,14 @@ select option{
     width: 100%;
 }
 
-.auth_inner{
-    cursor: none;
-    display: flex;
-    overflow: hidden;
-}
-
 .auth_inner_section{
     cursor: none;
     padding: 1.25rem 2rem;
 }
 
-.auth_sidebar{
-    cursor: none;
-    background: rgba(255, 255, 255, 0.5);
-    flex: 40%;
-}
-
 .auth_form{
     cursor: none;
-    background: rgba(34, 37, 42, 0.8);
+    background: rgba(83, 83, 83, 0.5);
     flex: 45%;
 }
 
@@ -329,25 +310,16 @@ select option{
     .auth_inner{
         width: 600px;
     }
-    .auth-blur{
-        width: 600px;
-    }
 }
 
 @media only screen and (max-width: 611px){
     .auth_inner{
         width: 400px;
     }
-    .auth-blur{
-        width: 400px;
-    }
 }
 
 @media only screen and (max-width: 411px){
     .auth_inner{
-        width: 350px;
-    }
-    .auth-blur{
         width: 350px;
     }
     .form_title{
