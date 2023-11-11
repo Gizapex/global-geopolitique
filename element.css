@@ -136,12 +136,14 @@ a{
 }
 
 select option{
+    cursor: none;
     color: black;
 }
 
 *,
 *:after,
 *:before{
+    cursor: none;
     box-sizing: inherit;
 }
 
@@ -223,7 +225,6 @@ select option{
     border-radius: 5px;
     width: 100%;
     height: 150px;
-    margin-bottom: 25px;
     resize: none;
     overflow: auto;
     outline: none;
@@ -241,6 +242,23 @@ select option{
     font-size: 0.6875rem;
     padding: 10px 0;
 }
+
+#image{
+    text-decoration: underline;
+    cursor: none;
+    color: #87909c;
+    margin-bottom: 15px;
+}
+
+#image::file-selector-button{
+    cursor: none;
+    color: #000;
+    padding: 0.5em;
+    background-color: #fff;
+    border: thin solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
 
 .button{
     cursor: none;
