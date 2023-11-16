@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="node_modules/flag-icons/css/flag-icons.css" rel="stylesheet">
+    <link href="node_modules/flag-icons/css/flag-icons.min.css" rel="stylesheet">
+    <link href="node_modules/select2/dist/css/select2.min.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
     <link href="element.css" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href="header.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="image/logo_alt.png">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css" rel="stylesheet"/>   
+
+    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/select2/dist/js/select2.min.js"></script>
+    <script src="app_downscroll.js"></script>
+    <script src="app_discord.js"></script>
 
     <title>Global Géopolitique | Découvrir</title>
 </head>
@@ -34,7 +48,99 @@
             </div>
         </nav>
 
-    <div class="banner"></div>
+        <div class="auth-wrap-background">
+            <div class="auth-center">
+                <div class="auth-blur auth-size">
+                    <div class="auth-wrap-background"></div>
+                </div>
+            </div>
+            <div class="auth-center">
+                <div class="auth_inner auth-size">
+                    <div class="auth_form auth_inner_section">
+                        <div class="form">
+                            <h1 class="form_title" id="wb-text"><mark>Entrez votre annonce ici !</mark></h1>
+                            <div id="form">
+                                <label class="form_label"><span class="form_label_text">Salon :</span></label>
+                                    <select class="form_input" name="webhooks" id="url">
+                                        <optgroup label="- Allemagne -">
+                                            <option value="https://discord.com/api/webhooks/1173044927593193472/J_CqgUIz5qNieONl1XWF0ERClREaAVHMhfN9sByw18_4EN9oMjkhU1v2lNMY09qhB8r3">Allemagne - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173021950285717534/03SOmuqOX8n2mFb6PYaWJXZK04pg_QlIYpkr3wpJYtkYa_HY-6vhnVq7-llKhNgNuNQ3">Allemagne - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Andorre -">
+                                            <option value="https://discord.com/api/webhooks/1173028949530513509/LFb2HA9t8Ba6nEuH6dWYX2FMyBgOqqWm-9Am_I8lZZvjaCe9Cke3jurjJomJ-_3n3lpw">Andorre - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173029442097000562/5HNbPNl7H6TNGkS1pIrtoAe3qNNTodznXGWE_Dk2xSjfnMkqgqjqJAR_P-pwZW5h0lHD">Andorre - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Austriche -">
+                                            <option value="https://discord.com/api/webhooks/1173030551066779749/TXzRPC21xZeF6Y1FvvCwz5LhoiQakZ_9qMKHxdPWb6ym6SxsUIAkHsnXW7wTqFSygjGW">Austriche - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173031007084105838/9zDuFQWWI5MqXNBKUMig-H7A4jmzxSuf3uuhltKdA0StFGl2YOFCxLyKlJ7br_ixpkO1">Austriche - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Belgique -">
+                                            <option value="https://discord.com/api/webhooks/1173032090279870586/lkQbAoV5yYrEinLZSu734jtazv38VwhZi6owtWcrlFWgGCElc2Me8X1XJ5md7gOITz8Z">Belgique - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173034260530208868/i6hWpgzHFI7fG3ACTiiWbN_Z4fZqN48603Yt6jRvV6K_bDa9xbIHy_OYBgtZx_j4Ks36">Belgique - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Espagne -">
+                                            <option value="https://discord.com/api/webhooks/1173034465749127308/rRgDfRi82hu3dxaxTLOSvlvkstYjqVZwM1GfJk38QTaTZRokZeNiD83gbyHCNbU_oHcK">Espagne - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173036543393419416/_5Ab-bXAwim3oiOVhei4azBzfv7f7kKjPGwIkK2t-56g7tf2yYNWEItt3NbbEVANQ2oy">Espagne - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- France -">
+                                            <option value="https://discord.com/api/webhooks/1173038114554511432/yFExNHErYneSUmyZDOKTGA6u-zpesRAZN_pi2p0rSFk3BX9SZ9OF5PujUKYc7PFgEVRT">France - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173038476162240633/N9KzQY5UNIp22R9Hme5OLhhebIWrySioHyEkCEZt02CcZwj7Go9048ODr98rpwhXIKmO">France - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Irelande -">
+                                            <option value="https://discord.com/api/webhooks/1173039447558848662/dUPRtlBxSndNXYVKW_ZmFWdKxZgTN3G3k_ONw08XuM9lSUflcYdK7jnErZCtMciMI5ns">Irelande - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173039949805801473/5g_Gw7iDB5SINfV9m1utM18Iacmf-U55b0DRV1RDcv5diCDgeK9wSH95R5Hcyqnas57Y">Irelande - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Italie -">
+                                            <option value="https://discord.com/api/webhooks/1173041062684655726/bfQqVqVZQvawEE76maneHU3Z8grFBmbj0N7kh6kWVvAyuzqkAFhaT617GfL7kqY-qFgK">Italie - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173041289936248982/iO0giiWxm18YGM46qCGd-AsuOkmNpbQbJaCM51680Bm2nk3DjV0VN19jATO_6KMVxz8U">Italie - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Liechtenstein -">
+                                            <option value="https://discord.com/api/webhooks/1173042533333467206/6it6jCJlsF53kiyTXdoV_Qu5qvu0DdyZ9UIHruaJt7I3xZGIR8AY7edL-5kCzAsfxYcd">Liechtenstein - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173042563016560700/exx2Zli3rRlwH-cmxO6Akdy5j1wPModOy2G6BkvP9zM8BV0NJpgiDu-pUZJfYEXyd5vm">Liechtenstein - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Luxembourg -">
+                                            <option value="https://discord.com/api/webhooks/1173043246310641715/cu3UWtPmAmjISZg3uSQmfaObdYAOVnMNdg5mxOM6-cE-yyD-cBCV0fNgm_IRTKTFo6ce">Luxembourg - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173044319293276171/QizRpwa7ENtfPWfbS7Wxp0cw2sUHpancK5FBZ309SrW1QxivvKiUmsPf6H6qiK7sSGTr">Luxembourg - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Malte -">
+                                            <option value="https://discord.com/api/webhooks/1173044568678203483/i6Sg9K-SjgUs3Nb0QoTVFXuURV2CNS9hu-7kvpQQGALR-ncz7NR7WWdoxn_ysEITN6FC">Malte - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173045172796407888/mydZXFLUEfoKE4Z4lmr_k3ejjgafqkTcK6niws6D5Udwf7qjJVBCUe4PybqyBy4EJ2nO">Malte - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Monaco -">
+                                            <option value="https://discord.com/api/webhooks/1173045716948623360/0DCL-0UYBpUcM8mVHLNygxBFCZHaIkjqWTmHCJmwgdggWXLbekydP19cZFD-1piU-j04">Monaco - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173046326439723092/uAVY9YEiq_L9eL0q4rmuAv6NjXOmuY7N7Wm6pLrK6G-4u0KKOGokLbJ_D47aHLEDTe_a">Monaco - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Pays Bas -">
+                                            <option value="https://discord.com/api/webhooks/1173047154944782336/MQt6pAGKaGt0Ejr3kOVea__RwM8xsDZ_u5InzYaVHeQ9yhRXfDAz4FGgBdopXG-ltz_Y">Pays Bas - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173047335094337677/Zk3zExkiev86XH6jw2rFvVqp5Q-rhOtsjTD2NR_xb_bXddG3JVjcZGpx1BkoAtehD1GN">Pays Bas - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Portugal -">
+                                            <option value="https://discord.com/api/webhooks/1173048379958374450/DC2VsNTsPwZ8xGrc-JHFkICB4F8G0zdcqLAWuKJ7T0EEkz72-OJEwRhi9Z--imHRa9xm">Portugal - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173048138827845683/cKkl3jqWDCy_MutQaNqF2I54wjJBQqLMLL4Py7jWcsZsTNb3ki1bfqYp7JCvlQHkF1gO">Portugal - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Royaume-Uni -">
+                                            <option value="https://discord.com/api/webhooks/1173049189970755665/x16F6LY8WQ_sOzPrZ1i3pfaA6DVh4xDLG5s0wU5Yn39BrJzRkmCWCPgkBkl6S4FmxfSl">Royaume-Uni - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173049194097934416/yMJeYFcaKwoYWu8nkrFl5gYXn4OuV35YiN2AHtNtrxLa1F7PpuGAyazfSl-A_-p5nIRr">Royaume-Uni - Boite mail</option>
+                                        </optgroup>
+                                        <optgroup label="- Suisse -">
+                                            <option value="https://discord.com/api/webhooks/1173050954216652921/MamKUuQUR_WTla_JtoShoMIjrA66X6RpOsBYIej10c_cMcmWgdcYBGELGgGWONMU6yci">Suisse - Annonce</option>
+                                            <option value="https://discord.com/api/webhooks/1173051133602828349/oGGPkv_buSjyNjSHJP6opHZP9gYOZV8JwBh7wHHI1FSewDaJZdy5Mbj4pwDP6qwaoR_p">Suisse - Boite mail</option>
+                                        </optgroup>
+                                    </select>
+                                
+                                <label class="form_label"><span class="form_label_text">Message :</span></label>
+                                    <textarea class="form_input" style="resize:none;" name="message" id="content" cols="30" rows="5" maxlength="2000" placeholder=" Écrivez votre message ici :"></textarea>
+                                
+                                <label class="form_label form_label_image"><span class="form_label_text">Image (optionnel) :</span></label>
+                                    <input type="file" id="image" accept="image/*, video/*, audio/*">
+
+                                <input class="button" type="submit" id="Submit" value="Envoyer sur Discord">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <footer>
@@ -47,14 +153,15 @@
         </ul>
     </footer>
 
-    <a href="#acceuil" class="gotopbtn"><i class="fa-solid fa-chevron-up"></i></a>
+    <a href="#accueil" class="gotopbtn" style="z-index: 1000; cursor: none; position: fixed; width: 58px; height: 58px; border-radius: 50px; background-color: #232428; bottom: 85px; right: 20px; text-decoration: none; text-align: center; line-height: 58px; font-size: 24px; color: #fff;"><i class="fa-solid fa-chevron-up"></i></a>
     <div class="cursor"></div>
 
-    <script src="https://kit.fontawesome.com/8677c1b3f3.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/select2/dist/js/select2.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer style="cursor: none;">
+        new Crate({
+            server: '1062062432043946084', // 𝐆𝐥𝐨𝐛𝐚𝐥 𝐆𝐞𝐨𝐩𝐨𝐥𝐢𝐭𝐢𝐜𝐬
+            channel: '1173700420674256896'
+        })
+    </script>
     <script src="app_menu.js"></script>
     <script src="app_cursor.js"></script>
     
