@@ -59,6 +59,7 @@
                     <div class="auth_form auth_inner_section">
                         <div class="form">
                             <h1 class="form_title" id="wb-text"><mark>Entrez votre annonce ici !</mark></h1>
+                            <h2 class="infos">Vous pouvez écrire une annonce sur discord <i class="fa-brands fa-discord"></i> depuis l'interface ci-dessous :</h2>
                             <div id="form">
                                 <label class="form_label"><span class="form_label_text">Salon :</span></label>
                                     <select class="form_input" name="webhooks" id="url">
@@ -141,9 +142,34 @@
                 </div>
             </div>
         </div>
-    </header>
+        <div class="auth-wrap-background-2">
+            <div class="auth-center">
+                <div class="auth-blur auth-size">
+                    <div class="auth-wrap-background"></div>
+                </div>
+            </div>
+            <div class="auth-center">
+                <div class="auth_inner auth-size">
+                    <div class="auth_form auth_inner_section">
+                        <div class="form">
+                            <h1 class="form_title" id="wb-text"><mark>Envoyez un message à l'ONU !</mark></h1>
+                            <h2 class="infos">Vous pouvez contacter le staff par mail <i class="fa-solid fa-envelope"></i> depuis l'interface ci-dessous :</h2>
+                            <div id="form">
+                                
+                                <label class="form_label"><span class="form_label_text">Message :</span></label>
+                                    <textarea class="form_input" style="resize:none;" name="message" id="content" cols="30" rows="5" maxlength="2000" placeholder=" Écrivez votre message ici :"></textarea>
 
-    <footer>
+                                <input class="button-2" type="submit" id="Submit" value="Envoyer un E-mail">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <footer style="position: absolute; bottom: 0; top: 190vh;">
         <h5><em>Site créer par Gizapex</em></h5>
         <h3><em><u>Global Géopolitique</u></em></h3>
         <ul class="footer-list">
@@ -153,17 +179,16 @@
         </ul>
     </footer>
 
-    <a href="#accueil" class="gotopbtn" style="z-index: 1000; cursor: none; position: fixed; width: 58px; height: 58px; border-radius: 50px; background-color: #232428; bottom: 85px; right: 20px; text-decoration: none; text-align: center; line-height: 58px; font-size: 24px; color: #fff;"><i class="fa-solid fa-chevron-up"></i></a>
-    <div class="cursor"></div>
+    <a href="#accueil" class="gotopbtn" style="z-index: 1000; position: fixed; width: 58px; height: 58px; border-radius: 50px; background-color: #232428; bottom: 85px; right: 20px; text-decoration: none; text-align: center; line-height: 58px; font-size: 24px; color: #fff;"><i class="fa-solid fa-chevron-up"></i></a>
 
-    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer style="cursor: none;">
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
         new Crate({
             server: '1062062432043946084', // 𝐆𝐥𝐨𝐛𝐚𝐥 𝐆𝐞𝐨𝐩𝐨𝐥𝐢𝐭𝐢𝐜𝐬
             channel: '1173700420674256896'
         })
     </script>
+        
     <script src="app_menu.js"></script>
-    <script src="app_cursor.js"></script>
     
 </body>
 

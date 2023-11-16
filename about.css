@@ -9,7 +9,6 @@ white : #fff
 */
 
 .l-embed .banner label{
-    cursor: none;
     font-size: x-large;
     position: absolute;
     top: 40%;
@@ -21,7 +20,6 @@ white : #fff
 
 .l-embed .banner p{
     color: #fff;
-    cursor: none;
     font-size: x-small;
     position: absolute;
     top: 42.5%;
@@ -32,7 +30,6 @@ white : #fff
 }
 
 .l-embed .banner #countrySelector{
-    cursor: none;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -41,7 +38,6 @@ white : #fff
 }
 
 .l-embed .banner #countrySelector+span{
-    cursor: none;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -50,12 +46,7 @@ white : #fff
 }
 
 label{
-    cursor: none;
     color: #902222 !important;
-}
-
-.select2{
-    cursor: none;
 }
 
 .content{
@@ -115,7 +106,7 @@ label{
 @media only screen and (max-width:610px){
     
     .l-embed .banner label{
-        cursor: none;
+
         font-size: x-large;
         position: absolute;
         top: 35%;
@@ -125,7 +116,7 @@ label{
         margin: 0;
     }
     .l-embed .banner p{
-        cursor: none;
+
         font-size: x-small;
         position: absolute;
         top: 41%;
@@ -139,6 +130,12 @@ label{
 @media only screen and (max-width:511px){
     .content .wiki{
         top: 70%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .gotopbtn{
+      display: none;
     }
 }
 

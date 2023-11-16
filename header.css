@@ -92,7 +92,6 @@ i.fa-arrow-right{
     border-bottom: 4px solid transparent;
     display: inline-block;
     height: 65px;
-    cursor: none;
     padding-bottom: 0;
 }
 
@@ -254,7 +253,6 @@ i.fa-arrow-right{
     user-select: none;
     gap: 0.75rem;
     transition: all .6s ease;
-    cursor: none;
 }
 
 .discover:hover{
