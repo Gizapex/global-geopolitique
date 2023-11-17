@@ -301,7 +301,7 @@ select option{
 }
 
 .auth-wrap-background-2{
-    background-color: yellowgreen;
+    background-color: #6a2138;
     background-size: cover;
     background-position: 50%;
     height: 100vh;
@@ -310,6 +310,18 @@ select option{
     top: 90vh;
     bottom: 0;
     flex: 1;
+}
+
+.form_input-2{
+    display: block;
+    position: relative;
+    border: 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
 }
 
 .button-2{
@@ -337,6 +349,30 @@ select option{
     outline: 0;
     bottom: 10px;
     width: 100%;
+}
+
+.form_input-2::-webkit-input-placeholder{
+    font-size: 13px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.form_input-2:-ms-input-placeholder{
+    font-size: 13px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.form_input-2:-moz-placeholder{
+    font-size: 13px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.form_input-2::-moz-placeholder{
+    font-size: 13px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 1072px){

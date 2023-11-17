@@ -145,7 +145,6 @@
         <div class="auth-wrap-background-2">
             <div class="auth-center">
                 <div class="auth-blur auth-size">
-                    <div class="auth-wrap-background"></div>
                 </div>
             </div>
             <div class="auth-center">
@@ -154,20 +153,24 @@
                         <div class="form">
                             <h1 class="form_title" id="wb-text"><mark>Envoyez un message à l'ONU !</mark></h1>
                             <h2 class="infos">Vous pouvez contacter le staff par mail <i class="fa-solid fa-envelope"></i> depuis l'interface ci-dessous :</h2>
-                            <div id="form">
-                                
-                                <label class="form_label"><span class="form_label_text">Message :</span></label>
-                                    <textarea class="form_input" style="resize:none;" name="message" id="content" cols="30" rows="5" maxlength="2000" placeholder=" Écrivez votre message ici :"></textarea>
+                            <form action="https://formspree.io/f/mnqkybea" method="POST">
 
-                                <input class="button-2" type="submit" id="Submit" value="Envoyer un E-mail">
-                            </div>
+                                <label class="form_label"><span class="form_label_text">Message :</span></label>
+
+                                <input class="form_input-2" type="name" placeholder=" Votre pseudo Discord :" name="pseudo" required style="margin-bottom: 15px;"/>
+
+                                <input class="form_input-2" name="objet" placeholder=" Objet :" required style="margin-bottom: 15px;"/>
+
+                                <textarea class="form_input" style="resize:none;" name="message" id="content" cols="30" rows="5" maxlength="2000" placeholder=" Écrivez votre message ici :" required></textarea>
+
+                                <button class="button-2" type="submit" id="Submit">Envoyer un E-mail</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    
 
     <footer style="position: absolute; bottom: 0; top: 190vh;">
         <h5><em>Site créer par Gizapex</em></h5>
